@@ -1,0 +1,79 @@
+html {
+	height: 100%;
+	background-image: linear-gradient(#c6deff, #c9dffe, #cce0fe, #cee0fd, #d1e1fd, #d4e2fc, 
+		#d6e3fc, #d9e4fb, #dce4fb, #dfe5fa, #e2e6fa, #e4e7f9, #e7e8f8, #eae8f8, #ece9f7, 
+		#efeaf7, #f2ebf6, #f5ecf6, #f8ecf5, #faedf5, #fdeef4);
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+}
+
+.flex-container {
+	display: flex; /* this is super important! */
+	justify-content: center;
+	flex-direction: row;
+}
+
+button {
+	width: 20%;
+	padding: 15px;
+	margin: 10px;
+	background-color: #fdeef4;
+	border-radius: 50px;
+	font-size: 16px;
+	color: #1118a8;
+	font-family: 'Poppins';
+	letter-spacing: 1px;
+	opacity: .75;
+	border-color: #ffccff;
+	border-width: 2px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+#welcome {
+	letter-spacing: 5px;
+	font-size: 60px;
+	animation: welcome 5s infinite;
+}
+
+@keyframes welcome {
+	25% {color: #33ccff}
+	50% {color: #2d95ec}
+	75% {font-size: 90px; color: #1118a8; letter-spacing: 10px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
