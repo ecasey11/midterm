@@ -1,3 +1,15 @@
-#button2 {
+#button3 {
 	text-transform: uppercase;
+}
+
+.experiences {
+	background-color: #ccfcff;
+	border-color: #ffccff;
+	border-width: 30px;
+
+}
+
+li {
+	display: block;
+	padding: 10px;
 }
