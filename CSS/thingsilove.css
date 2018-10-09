@@ -1,6 +1,6 @@
 
 
-#button4 {
+#button3 {
 	text-transform: uppercase;
 }
 
@@ -10,29 +10,26 @@ h1 {
 }
 
 img {
+	position: relative;
 	display: inline-block;
 	justify-content: center;
-	padding: 10px;
+
 }
 
 .container {
   	position: relative;
- 	width: 50%;
- 	width: 340px;
+ 	width: 320px;
 	height: 220px;
 	justify-content: center;
+	padding: 5px;
+	display: inline-block;
 }
 
 .overlay {
-  	top: 0;
-  	bottom: 0;
-  	left: 0;
-  	right: 0;
   	height: 100%;
   	width: 100%;
   	opacity: 0;
   	transition: .5s ease;
-  	background-color: #ccfcff;
 }
 
 .container:hover .overlay {
@@ -41,72 +38,77 @@ img {
 
 .text {
   	color: white;
-  	font-size: 20px;
+  	font-size: 25px;
   	position: absolute;
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
   	-ms-transform: translate(-50%, -50%);
   	text-align: center;
+  	text-shadow:
+    -1px -1px 0 #1118a8,
+    1px -1px 0 #1118a8,
+    -1px 1px 0 #1118a8,
+    1px 1px 0 #1118a8;
 }
 
 #siblings {
-	width: 340px;
+	width: 320px;
 	height: 220px;
 }
 
 #babyfacial {
-	width: 340px;
+	width: 320px;
 	height: 220px;
 }
 
 #mashedpotatoes {
-	width: 340px;
+	width: 320px;
 	height: 220px;
 }
 
 #flavorice {
-	width: 340px;
+	width: 320px;
 	height: 220px;
 }
 
 #peonies {
-	width: 340px;
+	width: 320px;
 	height: 220px;
 }
 
 #spaghetti {
-	width: 340px;
+	width: 320px;
 	height: 220px;
 }
 
 #michaelscott {
-	width: 340px;
+	width: 320px;
 	height: 220px;
 }
 
 #icecream {
-	width: 340px;
+	width: 320px;
 	height: 220px;
 }
 
 #rihanna {
-	width: 340px;
+	width: 320px;
 	height: 220px;
 }
 
 #beignets {
-	width: 340px;
+	width: 320px;
 	height: 220px;
 }
 
 #bulldog {
-	width: 340px;
+	width: 320px;
 	height: 220px;
 }
 
 #beach {
-	width: 340px;
+	width: 320px;
 	height: 220px;
 }
 
