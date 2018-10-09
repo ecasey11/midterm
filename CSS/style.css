@@ -12,12 +12,6 @@ body {
 	justify-content: center;
 }
 
-/*.flex-container {
-	display: flex;  this is super important! 
-	justify-content: center;
-	flex-direction: row;
-}*/
-
 .button {
 	position: relative;
 	display: inline-block;

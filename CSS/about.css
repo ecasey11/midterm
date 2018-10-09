@@ -1,12 +1,6 @@
-img {
-	height: 100px;
-	width: 50px;
-}
-
 body {
 	font-family: 'Montserrat', sans-serif;
 	color: #333;
-
 }
 
 #button2 {
@@ -21,12 +15,13 @@ h1 {
 
 p {
 	font-size: 30px;
-	margin: 50px;
-
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 ul {
-	margin: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 	font-size: 20px;
 	line-height: 30px;
 }
