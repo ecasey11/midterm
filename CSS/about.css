@@ -22,8 +22,11 @@ h1 {
 p {
 	font-size: 30px;
 	margin: 50px;
+
 }
 
 ul {
-	
+	margin: 50px;
+	font-size: 20px;
+	padding-top: 10px;
 }
