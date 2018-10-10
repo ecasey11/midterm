@@ -12,6 +12,10 @@ body {
 	justify-content: center;
 }
 
+#center {
+text-align: center;
+}
+
 .button {
 	position: relative;
 	display: inline-block;
@@ -25,10 +29,9 @@ body {
 	font-family: 'Poppins';
 	letter-spacing: 1px;
 	opacity: .75;
-	border-color: #ffccff;
-	border-width: 2px;
 	text-align: center;
 	text-decoration: none;
+	border: 2px solid #ffccff
 }
 
 .container {
@@ -44,6 +47,7 @@ body {
 	letter-spacing: 5px;
 	font-size: 60px;
 	animation: welcome 5s infinite;
+
 }
 
 @keyframes welcome {
